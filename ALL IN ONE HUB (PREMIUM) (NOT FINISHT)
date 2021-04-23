@@ -172,6 +172,12 @@ end)
        game.Lighting.TimeOfDay = "12:00:00:"
        end
        end)
+          MainSection:NewButton("Rejoin Server", "Rejoin the server", function()
+       local ts = game:GetService("TeleportService")
+local p = game:GetService("Players").LocalPlayer
+
+ts:Teleport(game.PlaceId, p)
+end)
 -- PLAYER
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")

@@ -528,7 +528,7 @@ Roundify_2.SliceScale = 0.120
 
 
 Submit.MouseButton1Down:connect(function()
-if Imput.Text == "56789viewerinthestream" or
+if Imput.Text == "TheNormalKeyIsNotSoGoodLikePremiumKeyButItsNormalXD" or
    game.Players.Maxi1230111.Character then
 main.Visible = false
 premiummain.Visible = false
@@ -567,7 +567,7 @@ PremiumClose.MouseButton1Down:connect(function()
 premiummain.Visible = false
 end)
 PremiumSubmit.MouseButton1Down:connect(function()
-if PremiumImput.Text == "PremiumKeyViewerAreBest56789-100" or
+if PremiumImput.Text == "PremiumKeyIsBetterThenNormalButItsPremiumXD" or
    game.Players.Maxi1230111.Character then
 main.Visible = false
 premiummain.Visible = false

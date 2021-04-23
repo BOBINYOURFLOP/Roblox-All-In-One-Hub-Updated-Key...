@@ -40,7 +40,7 @@ if getgenv().LoadGui == false then
      loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
      end)
      MainSection:NewButton("BruhHub", "Good For Shindo Life", function()
-     loadstring(game:HttpGet("https://bruh.keshhub.com/.lua%22))()
+     loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
      end)  
     -- Main2
     local Main = Window:NewTab("ScriptHubs2")

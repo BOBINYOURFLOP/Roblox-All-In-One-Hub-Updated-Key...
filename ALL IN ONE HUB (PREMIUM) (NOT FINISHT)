@@ -230,7 +230,6 @@ Humanoid:ChangeState("Seated")
 end
 end
 end)
-
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 Mouse.KeyDown:connect(function(k)
@@ -243,6 +242,12 @@ _G.infinjump = true
 end
 end
 end)
+end)
+--Settings
+     local Main = Window:NewTab("Settings")
+     local MainSection = Main:NewSection("Settings")
+     MainSection:NewKeybind("Toggel Gui (Q)", "Toggel Gui With Q U Can Change", Enum.KeyCode.Q, function()
+	Library:ToggleUI()
 end)
 wait(1)
 getgenv().LoadGui = true

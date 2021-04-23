@@ -40,38 +40,7 @@ Submit.Font = Enum.Font.SourceSans
 Submit.Text = "Login"
 Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
 Submit.TextSize = 40.000
-Submit.MouseButton1Down:connect(function()
-if Imput.Text == "56789viewerinthestream" or
-   game.Players.Maxi1230111.Character then
-main.Visible = false
-premiummain.Visible = false
-wait(0.4)
-getgenv().LoadGui = false;
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB/main/ALL%20IN%20ONE%20HUB%20NORMAL?token=ATTM4GUAZVEKTLOHQJ3YDJTAQIE3A"))()
-wait(1)
-getgenv().LoadGui = true;
-end
-end)
-Submit.MouseButton1Down:connect(function()
-game.Players.Kev2345671:Kick("UR BLACKLISTED")
-end)
-Submit.MouseButton1Down:connect(function()
-game.Players.Kev2345671:Kick("UR BLACKLISTED")
-end)
-Submit.MouseButton1Down:connect(function()
-game.Players.LucaMichael06:Kick("FISCHKOPF")
-end)
-Submit.MouseButton1Down:connect(function()
-if game.Players.LucaMichael06.Character then
-main.Visible = false
-premiummain.Visible = false
-getgenv().LoadGui = false;
-wait(0.4)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB/main/ALL%20IN%20ONE%20HUB%20NORMAL?token=ATTM4GUAZVEKTLOHQJ3YDJTAQIE3A"))()
-wait(1)
-getgenv().LoadGui = true;
-end
-end)
+
 Imput.Name = "Imput"
 Imput.Parent = main
 Imput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -96,9 +65,7 @@ PremiumOpen.Font = Enum.Font.SourceSans
 PremiumOpen.Text = "Premium Key"
 PremiumOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
 PremiumOpen.TextSize = 40.000
-PremiumOpen.MouseButton1Down:connect(function()
-premiummain.Visible = true;
-end)
+
 Close.Name = "Close"
 Close.Parent = main
 Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -110,10 +77,6 @@ Close.Font = Enum.Font.SourceSans
 Close.Text = ""
 Close.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close.TextSize = 14.000
-Close.MouseButton1Down:connect(function()
-premiummain.Visible = false
-main.Visible = false
-end)
 
 Roundify.Name = "Roundify"
 Roundify.Parent = Close
@@ -153,35 +116,7 @@ PremiumSubmit.Font = Enum.Font.SourceSans
 PremiumSubmit.Text = "Login"
 PremiumSubmit.TextColor3 = Color3.fromRGB(0, 0, 0)
 PremiumSubmit.TextSize = 40.000
-PremiumSubmit.MouseButton1Down:connect(function()
-if PremiumImput.Text == "PremiumKeyViewerAreBest56789-100" or
-   game.Players.Maxi1230111.Character then
-main.Visible = false
-premiummain.Visible = false
-getgenv().LoadGui = false;
-wait(0.4)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB/main/ALL%20IN%20ONE%20HUB%20NOT%20FINISHT%20(PREMIUM)?token=ATTM4GTWWYP6XSLV7W2UKXDAQIE6W"))()
-wait(1)
-getgenv().LoadGui = true;
-end
-end)
-PremiumSubmit.MouseButton1Down:connect(function()
-game.Players.Kev2345671:Kick("UR BLACKLISTED")
-end)
-PremiumSubmit.MouseButton1Down:connect(function()
-game.Players.LucaMichael06:Kick("Uncool")
-end)
-PremiumSubmit.MouseButton1Down:connect(function()
-if game.Players.LucaMichael06.Character then
-main.Visible = false
-premiummain.Visible = false
-getgenv().LoadGui = false;
-wait(0.4)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB/main/ALL%20IN%20ONE%20HUB%20NOT%20FINISHT%20(PREMIUM)?token=ATTM4GTWWYP6XSLV7W2UKXDAQIE6W"))()
-wait(1)
-getgenv().LoadGui = true;
-end
-end)
+
 PremiumImput.Name = "PremiumImput"
 PremiumImput.Parent = premiummain
 PremiumImput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -206,9 +141,6 @@ PremiumClose.Font = Enum.Font.SourceSans
 PremiumClose.TextColor3 = Color3.fromRGB(0, 0, 0)
 PremiumClose.TextSize = 14.000
 PremiumClose.TextTransparency = 1.000
-PremiumClose.MouseButton1Down:connect(function()
-premiummain.Visible = false
-end)
 
 Roundify_2.Name = "Roundify"
 Roundify_2.Parent = PremiumClose
@@ -221,3 +153,448 @@ Roundify_2.Image = "http://www.roblox.com/asset/?id=2307116600"
 Roundify_2.ScaleType = Enum.ScaleType.Slice
 Roundify_2.SliceCenter = Rect.new(100, 100, 100, 100)
 Roundify_2.SliceScale = 0.120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Submit.MouseButton1Down:connect(function()
+if Imput.Text == "56789viewerinthestream" or
+   game.Players.Maxi1230111.Character then
+main.Visible = false
+premiummain.Visible = false
+wait(0.4)
+getgenv().LoadGui = false;
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.Kev2345671:Kick("UR BLACKLISTED")
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.Kev2345671:Kick("UR BLACKLISTED")
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.LucaMichael06:Kick("FISCHKOPF")
+end)
+Submit.MouseButton1Down:connect(function()
+if game.Players.LucaMichael06.Character then
+main.Visible = false
+premiummain.Visible = false
+getgenv().LoadGui = false;
+wait(0.4)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)
+Close.MouseButton1Down:connect(function()
+premiummain.Visible = false
+main.Visible = false
+end)
+PremiumClose.MouseButton1Down:connect(function()
+premiummain.Visible = false
+end)
+PremiumSubmit.MouseButton1Down:connect(function()
+if PremiumImput.Text == "PremiumKeyViewerAreBest56789-100" or
+   game.Players.Maxi1230111.Character then
+main.Visible = false
+premiummain.Visible = false
+getgenv().LoadGui = false;
+wait(0.4)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20(PREMIUM)%20(NOT%20FINISHT)"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)
+PremiumSubmit.MouseButton1Down:connect(function()
+game.Players.Kev2345671:Kick("UR BLACKLISTED")
+end)
+PremiumSubmit.MouseButton1Down:connect(function()
+game.Players.LucaMichael06:Kick("Uncool")
+end)
+PremiumSubmit.MouseButton1Down:connect(function()
+if game.Players.LucaMichael06.Character then
+main.Visible = false
+premiummain.Visible = false
+getgenv().LoadGui = false;
+wait(0.4)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20(PREMIUM)%20(NOT%20FINISHT)"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)
+PremiumOpen.MouseButton1Down:connect(function()
+premiummain.Visible = true;
+end)

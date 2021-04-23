@@ -1,3 +1,5 @@
+-- BLACK LIST SYSTEM
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("ImageLabel")
 local LogIn = Instance.new("TextButton")

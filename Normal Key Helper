@@ -1,0 +1,32 @@
+Submit.MouseButton1Down:connect(function()
+if Imput.Text == "56789viewerinthestream" or
+   game.Players.Maxi1230111.Character then
+main.Visible = false
+premiummain.Visible = false
+wait(0.4)
+getgenv().LoadGui = false;
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.Kev2345671:Kick("UR BLACKLISTED")
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.Kev2345671:Kick("UR BLACKLISTED")
+end)
+Submit.MouseButton1Down:connect(function()
+game.Players.LucaMichael06:Kick("FISCHKOPF")
+end)
+Submit.MouseButton1Down:connect(function()
+if game.Players.LucaMichael06.Character then
+main.Visible = false
+premiummain.Visible = false
+getgenv().LoadGui = false;
+wait(0.4)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
+wait(1)
+getgenv().LoadGui = true;
+end
+end)

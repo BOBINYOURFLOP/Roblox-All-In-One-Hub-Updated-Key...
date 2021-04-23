@@ -538,12 +538,18 @@ wait(1)
 getgenv().LoadGui = true;
 end
 end)
+
+
 Submit.MouseButton1Down:connect(function()
 game.Players.Kev2345671:Kick("UR BLACKLISTED")
 end)
+
+
 Submit.MouseButton1Down:connect(function()
 game.Players.Kev2345671:Kick("UR BLACKLISTED")
 end)
+
+
 Submit.MouseButton1Down:connect(function()
 if game.Players.LucaMichael06.Character then
 main.Visible = false
@@ -555,13 +561,19 @@ wait(1)
 getgenv().LoadGui = true;
 end
 end)
+
+
 Close.MouseButton1Down:connect(function()
 premiummain.Visible = false
 main.Visible = false
 end)
+
+
 PremiumClose.MouseButton1Down:connect(function()
 premiummain.Visible = false
 end)
+
+
 PremiumSubmit.MouseButton1Down:connect(function()
 if PremiumImput.Text == "PremiumKeyIsBetterThenNormalButItsPremiumXD" or
    game.Players.Maxi1230111.Character then
@@ -574,9 +586,13 @@ wait(1)
 getgenv().LoadGui = true;
 end
 end)
+
+
 PremiumSubmit.MouseButton1Down:connect(function()
 game.Players.Kev2345671:Kick("UR BLACKLISTED")
 end)
+
+
 PremiumSubmit.MouseButton1Down:connect(function()
 if game.Players.LucaMichael06.Character then
 main.Visible = false
@@ -588,6 +604,8 @@ wait(1)
 getgenv().LoadGui = true;
 end
 end)
+
+
 PremiumOpen.MouseButton1Down:connect(function()
 premiummain.Visible = true;
 end)

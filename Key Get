@@ -1,0 +1,64 @@
+local ScreenGui = Instance.new("ScreenGui")
+local CopyLink = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local CopyButton = Instance.new("TextButton")
+local CloseItWhyNot = Instance.new("ImageLabel")
+local CloseCopyLink = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+CopyLink.Name = "CopyLink"
+CopyLink.Parent = ScreenGui
+CopyLink.AnchorPoint = Vector2.new(0.5, 0.5)
+CopyLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyLink.BackgroundTransparency = 1.000
+CopyLink.Position = UDim2.new(0.134758875, 0, 0.621136546, 0)
+CopyLink.Size = UDim2.new(0.233817101, 24, 0.168819293, 24)
+CopyLink.Image = "rbxassetid://3570695787"
+CopyLink.ScaleType = Enum.ScaleType.Slice
+CopyLink.SliceCenter = Rect.new(100, 100, 100, 100)
+CopyLink.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = CopyLink
+
+CopyButton.Name = "CopyButton"
+CopyButton.Parent = CopyLink
+CopyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyButton.BackgroundTransparency = 1.000
+CopyButton.Position = UDim2.new(0.104902506, 0, 0.2090085, 0)
+CopyButton.Size = UDim2.new(0, 372, 0, 96)
+CopyButton.Font = Enum.Font.SourceSans
+CopyButton.Text = "Copy Password Link"
+CopyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CopyButton.TextSize = 40.000
+CopyButton.MouseButton1Down:connect(function()
+setclipboard("https://direct-link.net/244801/ALLINONEHUB")
+CopyLink.Visible = false
+end)
+
+CloseItWhyNot.Name = "CloseItWhyNot"
+CloseItWhyNot.Parent = CopyLink
+CloseItWhyNot.AnchorPoint = Vector2.new(0.5, 0.5)
+CloseItWhyNot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseItWhyNot.BackgroundTransparency = 1.000
+CloseItWhyNot.Position = UDim2.new(0.946961641, 0, 0.150097519, 0)
+CloseItWhyNot.Size = UDim2.new(0.0611697771, 24, 0.166864902, 24)
+CloseItWhyNot.Image = "http://www.roblox.com/asset/?id=2307116600"
+CloseItWhyNot.ScaleType = Enum.ScaleType.Slice
+CloseItWhyNot.SliceCenter = Rect.new(100, 100, 100, 100)
+CloseItWhyNot.SliceScale = 0.120
+
+CloseCopyLink.Name = "CloseCopyLink"
+CloseCopyLink.Parent = CloseItWhyNot
+CloseCopyLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseCopyLink.BackgroundTransparency = 1.000
+CloseCopyLink.Position = UDim2.new(0.132252187, 0, 0.0185447857, 0)
+CloseCopyLink.Size = UDim2.new(0, 38, 0, 50)
+CloseCopyLink.Font = Enum.Font.SourceSans
+CloseCopyLink.Text = ""
+CloseCopyLink.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseCopyLink.TextSize = 14.000
+CloseCopyLink.MouseButton1Down:connect(function()
+CopyLink.Visible = false
+end)

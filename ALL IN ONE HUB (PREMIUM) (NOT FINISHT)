@@ -81,7 +81,7 @@ end)
      MainSection:NewButton("INFINITE YIELD", "It has much commands", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
      end)
-          MainSection:NewButton("Fucky Friday Script", "Always Win", function()
+          MainSection:NewButton("Fucky Friday Script", "Always Win(No Get Points)", function()
      while wait() do
 while wait() do
 

@@ -39,7 +39,9 @@ if getgenv().LoadGui == false then
      MainSection:NewButton("Dark Hub", "Dark Hub", function()
      loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
      end)
-
+     MainSection:NewButton("BruhHub", "Good For Shindo Life", function()
+     loadstring(game:HttpGet("https://bruh.keshhub.com/.lua%22))()
+     end)  
     -- Main2
     local Main = Window:NewTab("ScriptHubs2")
     local MainSection = Main:NewSection("ScriptHubs2")
@@ -73,6 +75,8 @@ end)
     -- Scripts
      local Main = Window:NewTab("Script")
      local MainSection = Main:NewSection("Script")
+     MainSection:NewButton("Cmd X", "It has much commands", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
      MainSection:NewButton("MurderMystery2 Script", "MurderMystery2 Script", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
      end)
@@ -133,9 +137,6 @@ getgenv().Themes = {
 }
 wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/derekcool38/Releases/main/ScriptHub/Loader.lua"))()
-end)
-MainSection:NewButton("Shindo Life Auto Farm", "I think its best shindo life auto farm Script", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
 end)
 MainSection:NewButton("Ultimate Tower Defense Simulator AutoFishing", "(AutoFish) Script", function()
 -- variable

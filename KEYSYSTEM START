@@ -600,6 +600,7 @@ CopyLink.Visible = false
 	Close.MouseButton1Down:connect(function()
 		premiummain.Visible = false
 		main.Visible = false
+		CopyLink.Visible = false
 	end)
 	
 	

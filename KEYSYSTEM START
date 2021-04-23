@@ -531,7 +531,6 @@ if Imput.Text == "TheNormalKeyIsNotSoGoodLikePremiumKeyButItsNormalXD" or
    game.Players.Maxi1230111.Character then
 main.Visible = false
 premiummain.Visible = false
-CopyLink.Visible = false
 wait(0.4)
 getgenv().LoadGui = false;
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
@@ -555,7 +554,6 @@ Submit.MouseButton1Down:connect(function()
 if game.Players.LucaMichael06.Character then
 main.Visible = false
 premiummain.Visible = false
-CopyLink.Visible = false
 getgenv().LoadGui = false;
 wait(0.4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20NORMAL"))()
@@ -581,7 +579,6 @@ if PremiumImput.Text == "PremiumKeyIsBetterThenNormalButItsPremiumXD" or
    game.Players.Maxi1230111.Character then
 main.Visible = false
 premiummain.Visible = false
-CopyLink.Visible = false
 getgenv().LoadGui = false;
 wait(0.4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20(PREMIUM)%20(NOT%20FINISHT)"))()
@@ -600,7 +597,6 @@ PremiumSubmit.MouseButton1Down:connect(function()
 if game.Players.LucaMichael06.Character then
 main.Visible = false
 premiummain.Visible = false
-CopyLink.Visible = false
 getgenv().LoadGui = false;
 wait(0.4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/ALL%20IN%20ONE%20HUB%20(PREMIUM)%20(NOT%20FINISHT)"))()

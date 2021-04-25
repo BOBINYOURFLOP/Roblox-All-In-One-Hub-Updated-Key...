@@ -196,6 +196,12 @@ game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="U Can Go Afk"wait(2)ab.Text="U Can Go Afk"end)
 end)
+--Settings
+     local Main = Window:NewTab("Settings")
+     local MainSection = Main:NewSection("Settings")
+     MainSection:NewKeybind("Toggel Gui (Q)", "Toggel Gui With Q U Can Change", Enum.KeyCode.Q, function()
+	Library:ToggleUI()
+end)
 wait(1)
 getgenv().LoadGui = true
 end

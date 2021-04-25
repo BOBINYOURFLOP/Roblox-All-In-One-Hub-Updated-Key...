@@ -211,6 +211,8 @@ end)
 -- PLAYER
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
+    local PlayerSection = Player:NewSection("U can find Fly and noclip... in scripts")
+    local PlayerSection = Player:NewSection("Use for it Cmd X or Infinite Yield")
  
     PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v

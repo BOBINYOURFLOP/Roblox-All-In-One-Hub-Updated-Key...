@@ -694,6 +694,7 @@ local function KPVBAS_fake_script()
 			premiummain.Visible = false
 			main.Visible = false
 			CopyLink.Visible = false
+			InfoBox.Visible = false
 		end)
 	
 	

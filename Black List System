@@ -1745,11 +1745,11 @@ Close_2.TextSize = 14.000
 
 
 LogIn.MouseButton1Down:connect(function()
+main.Visible = false
 getgenv().PasswordLoaderEasy = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/KEYSYSTEM"))()
 wait(1)
 getgenv().PasswordLoaderEasy = true
-main.Visible = false
 end)
 LogIn.MouseButton1Down:connect(function()
 game.Players.MattiasHD22:Kick("UR BLACKLISTED")

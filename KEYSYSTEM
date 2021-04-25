@@ -1,2 +1,8 @@
 --KeySystemLinks :D
+if getgenv().PasswordLoaderEasy == false then
+getgenv().PasswordLoader = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/Roblox-All-In-One-Hub-Updated-Key.../main/KEYSYSTEM%20START"))()
+wait(1)
+getgenv().PasswordLoader = true
+getgenv().PasswordLoaderEasy = true
+end

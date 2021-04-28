@@ -196,6 +196,8 @@ setclipboard([[
 --Make in your autoexecute folder
 --Go in the folder from your executor and then u see autoexecute go in this folder and make a .txt data with this scirpt
 loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()]])
+game.Players.LucaMichael06:Kick("Das ist net für dich xd :D")
+setclipboard('NIX DA XD')
 end)
 --Misc
     local Main = Window:NewTab("Misc")

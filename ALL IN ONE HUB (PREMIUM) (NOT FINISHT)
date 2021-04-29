@@ -19,6 +19,11 @@ if getgenv().LoadGui == false then
     MainSection:NewButton("JayHub", "JayHub", function()
     loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
      end)
+     MainSection:NewButton("Alpha X  Hub", "Alpha X  Hub", function()
+     getgenv().http_request = http_request or request or (http and http.request) or syn.request 
+repeat until http_request
+loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
+end)
     MainSection:NewButton("LumberSmasher(Key)", "LumberSmasher(Key)", function()
     getgenv().http_request = http_request or request or (http and http.request) or syn.request 
     repeat until http_request

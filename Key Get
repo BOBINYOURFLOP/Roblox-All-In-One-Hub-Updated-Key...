@@ -6,6 +6,7 @@ local CloseItWhyNot = Instance.new("ImageLabel")
 local CloseCopyLink = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
 
 CopyLink.Name = "CopyLink"
 CopyLink.Parent = ScreenGui

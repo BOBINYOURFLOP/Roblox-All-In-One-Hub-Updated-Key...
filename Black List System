@@ -8,6 +8,7 @@ local Close = Instance.new("ImageLabel")
 local Close_2 = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
 
 main.Name = "main"
 main.Parent = ScreenGui

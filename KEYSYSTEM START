@@ -1,4 +1,3 @@
-getgenv().PasswordLoader = false
 if getgenv().PasswordLoader == false then
 
 local ScreenGui = Instance.new("ScreenGui")

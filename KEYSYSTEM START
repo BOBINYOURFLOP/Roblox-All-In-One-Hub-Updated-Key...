@@ -454,7 +454,7 @@ local function KPVBAS_fake_script()
 		TextLabel.Position = UDim2.new(0.212643683, 0, 0, 0)
 		TextLabel.Size = UDim2.new(0, 200, 0, 78)
 		TextLabel.Font = Enum.Font.SourceSans
-		TextLabel.Text = "If u die then the keysystem close"
+		TextLabel.Text = "Discord Coming Soon!"
 		TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 		TextLabel.TextSize = 25.000
 	
